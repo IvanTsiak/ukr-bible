@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ukr-bible"
+version = "0.1.0"
+authors = [
+  { name="Ivan Tsiak", email="ivanzjak2007@gmail.com" },
+]
+description = "A Python library for the Ukrainian Bible (Ogienko translation)."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: Ukrainian",
+]
+keywords = ["bible", "ukrainian", "ogienko", "біблія", "релігія"]
+
+[project.urls]
+"Homepage" = "https://github.com/твоє_ім'я/ukr-bible"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ukr_bible*"]
