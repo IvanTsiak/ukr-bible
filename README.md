@@ -15,7 +15,7 @@ Install the library via pip:
 
 ```bash
 pip install ukr-bible
-
+```
 ## Quick Start
 
 ### 1. Fetching Verses
@@ -33,7 +33,7 @@ for v in verses:
 
 # Output:
 # Євангелія від Івана 3:16 — Бо так полюбив Бог світ, що дав Сина Свого Однородженого...
-
+```
 ### 2. Fetching a Range
 You can request multiple verses at once
 
@@ -43,7 +43,7 @@ beatitudes = bible.get("Мт 5:3-5")
 
 for v in beatitudes:
     print(f"[{v.verse}] {v.text}")
-
+```
 ### 3. Searching
 Find verses containing specific words or phrases.
 
@@ -54,14 +54,14 @@ results = bible.search("світло для світу")
 print(f"Found {len(results)} matches:")
 for v in results:
     print(v)
-
+```
 ### 4. Random Verse
 Get a random verse from the entire Bible.
 
 ```python
 random_v = bible.random_verse()
 print(f"Random wisdom: {random_v.text} ({random_v.book_short} {random_v.chapter}:{random_v.verse})")
-
+```
 ### Data Structure
 The library returns `Verse` objects with the following attributes:
 
