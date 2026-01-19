@@ -1,4 +1,4 @@
-A lightweight, zero-dependency Python library for interacting with the Ukrainian Bible (Ivan Ogienko translation).
+A lightweight, zero-dependency Python library for interacting with the Ukrainian Bible (Ivan Ohienko / Іван Огієнко translation).
 Designed for developers, researchers, and bot creators who need fast, offline access to biblical texts in Ukrainian.
 
 ## Features

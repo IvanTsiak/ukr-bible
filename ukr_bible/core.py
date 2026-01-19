@@ -4,7 +4,7 @@ import os
 import random
 from typing import List, Optional
 from .models import Verse
-from aliases import BOOK_ALIASES
+from .aliases import BOOK_ALIASES
 
 class Bible:
     def __init__(self):
